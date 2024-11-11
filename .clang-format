@@ -1,0 +1,23 @@
+# Basic .clang-format configuration with line length limits
+---
+Language: Cpp
+ColumnLimit: 100
+
+# Related formatting options that work well with limited line length
+# Break long function declarations
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: Align
+
+# Configure line breaks for function calls and declarations
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowAllArgumentsOnNextLine: true
+AlwaysBreakTemplateDeclarations: Yes
+
+# Configure line breaking for long conditions
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: true
+
+# Indentation
+IndentWidth: 4
+ContinuationIndentWidth: 4
