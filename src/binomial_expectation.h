@@ -1,4 +1,5 @@
 #pragma once
+#include <stddef.h>
 
 /**
  * @brief Calculates expected value in a binomial tree using an iterative bottom-up approach
